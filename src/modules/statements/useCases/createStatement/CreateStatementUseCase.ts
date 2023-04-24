@@ -8,10 +8,10 @@ import { ICreateStatementDTO } from "./ICreateStatementDTO";
 @injectable()
 export class CreateStatementUseCase {
   constructor(
-    @inject("UsersRepository")
+    @inject('UsersRepository')
     private usersRepository: IUsersRepository,
 
-    @inject("StatementsRepository")
+    @inject('StatementsRepository')
     private statementsRepository: IStatementsRepository
   ) {}
 
